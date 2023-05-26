@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimiko - hub</title>
+    <!-- icon -->
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/png">
+    <!-- fonds -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto:wght@300;400;500&family=Montserrat:wght@500&family=Nunito:wght@300;500;700&family=Rowdies&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0b6c299b7c.js" crossorigin="anonymous" defer></script>
+    <!-- links -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- script -->
+    <script src="js/script.js" defer></script>
+    <script src="js/searching.js" defer></script>
+    <script src="js/theme.js" defer></script>
+    <script src="js/animations.js" defer></script>
+
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <button class="logo-link">
+                        kimiko<span class="logo-sub">hub</span>
+                    </button>
+                    <div class="style-list-container">
+                        <div class="style-list --of">
+                            <button class="style-dark">dark</button>
+                            <button class="style-light">light</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu">
+                    <li class="menu-item menu-item-active">
+                        <a href="/" class="menu-link">
+                            Главная
+                        </a>
+                    </li>
+                    <li class="menu-item menu-item-havesub">
+                        <a href="#" class="menu-link menu-link--rowdies havesub-main-link">
+                            Аниме
+                        </a>
+                        <div class="havesub-container">
+                            <ul class="havesub-list">
+                                <a href="#" class="havesub-link">
+                                    Новинки
+                                </a>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item menu-item-search">
+                        <button class="menu-link menu-link-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span class="menu-link-search-text">Поиск</span>
+                            <div class="search-input-container --of">
+                                <input class="menu-item-search-input" type="text" value="" placeholder="Поиск">
+                            </div>
+                            <div class="searchinglist-container --of">
+                                <ul class="searchinglist">
+                                    <a class="searchinglist-notification --of">По запросу ничего не найдено</a>
+                                    <!-- <a href="#" class="searchinglist-item">Твоя квітнева брехня</a>
+                                    <a href="#" class="searchinglist-item">Твоє ім'я</a>
+                                    <a href="#" class="searchinglist-item">Хьока</a>
+                                    <a href="#" class="searchinglist-item">Форма голосу</a>
+                                    <a href="#" class="searchinglist-item">Kokoro Connect</a>
+                                    <a href="#" class="searchinglist-item">Сталевий алхімік: Братерство</a>
+                                    <a href="#" class="searchinglist-item">Вінець гріхів</a>
+                                    <a href="#" class="searchinglist-item">Ano hi mita hana no namae o bokutachi wa mada shiranai.</a>
+                                    <a href="#" class="searchinglist-item">Кланнад: Післяслово</a>
+                                    <a href="#" class="searchinglist-item">Брама;Штейна</a>
+                                    <a href="#" class="searchinglist-item">Robotics;Notes</a>
+                                    <a href="#" class="searchinglist-item">Fate/stay night: Unlimited Blade Works</a>
+                                    <a href="#" class="searchinglist-item">DARLING in the FRANXX</a>
+                                    <a href="#" class="searchinglist-item">Angel Beats!</a>
+                                    <a href="#" class="searchinglist-item">Сім смертних гріхів</a>
+                                    <a href="#" class="searchinglist-item">Сворд Арт Онлайн</a>
+                                    <a href="#" class="searchinglist-item">Наруто: Ураганні хроніки</a>
+                                    <a href="#" class="searchinglist-item">Без гри нема життя</a>
+                                    <a href="#" class="searchinglist-item">Психопаспорт</a>
+                                    <a href="#" class="searchinglist-item">Bakemonogatari</a>
+                                    <a href="#" class="searchinglist-item">Бліч</a> -->
+                                </ul>
+                            </div>
+                        </button>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">
+                            Библиотека
+                        </a>
+                    </li>
+                    <li class="menu-item menu-item-havesub">
+                        <a href="#" class="menu-link havesub-main-link">
+                            Форум
+                        </a>
+                        <div class="havesub-container">
+                            <ul class="havesub-list">
+                                <a href="#" class="havesub-link">
+                                    Новости
+                                </a>
+                                <a href="#" class="havesub-link">
+                                    О нас
+                                </a>
+                                <a href="#" class="havesub-link">
+                                    patreon
+                                </a>
+                                <a href="#" class="havesub-link">
+                                    instagram
+                                </a>
+                            </ul>
+                        </div>
+                    </li>
+                </div>
+                <div class="others">
+                    <li class="others-item">
+                        <div class="others-link">
+                            <button class="others-profile">
+                                <i class="fa-user fa-solid"></i>
+                            </button>
+                            <div class="profile-registration --of">
+                                <a href="#" class="profile-registration-login">Login</a>
+                                <a href="#" class="profile-registration-signup">Signup</a>
+                            </div>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </nav>
+        <main class="main">
+            <div class="main-wrapper">
+
+                <div class="main-recent">
+                    <div class="recent-header">
+                        <div class="recent-header-content">
+                            <div class="recent-header-profile">
+                                <a class="profile-link" href="#">
+                                    <img class="profile-img" src="img/profile1.jpg" alt="prof">
+                                </a>
+                            </div>
+                            <div class="recent-header-text">
+                                <h2 class="recent-subtitle">FROZYA ROZIN</h2>
+                                <h1 class="recent-title"><a class="recent-title-link" href="#">Продолжить просмотр</a></h1>
+                            </div>
+                        </div>
+                        <div class="recent-header-other">
+                            <div class="recent-more">
+                                <a class="recent-more-link" href="#">вся история</a>
+                            </div>
+                            <!-- <div class="recent-buttons">
+                                <button class="recent-back">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </button>
+                                <button class="recent-forward">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="recent-content">
+                        <div class="recent-item">
+                            <div class="recent-item-imgage" style="background-image:url(img/5c31146970ca5423190150.jpg);">
+                                <div class="recent-item-image-wrapper">
+                                    <ul class="recent-item-image-seting-list --of">
+                                        <li class="recent-item-image-seting-list-item">Удалить из истории</li>
+                                        <li class="recent-item-image-seting-list-item">В избраное</li>
+                                        <a href="#" class="recent-item-image-seting-list-item --underline">подробнее</a>
+                                    </ul>
+                                    <button class="recent-item-image-seting">
+                                        <i class="fa-ellipsis-vertical fa-solid "></i>
+                                    </button>
+                                    <a href="" class="recent-item-link">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="recent-item-text">
+                                <h3 class="recent-item-name">Семь смертных грехов</h3>
+                                <h3 class="recent-item-description">Узники небес</h3>
+                            </div>
+                        </div>
+                        <div class="recent-item">
+                            <div class="recent-item-imgage" style="background-image:url(img/унесённыеПризраками.jpg);">
+                                <div class="recent-item-image-wrapper">
+                                    <ul class="recent-item-image-seting-list --of">
+                                        <li class="recent-item-image-seting-list-item">Удалить из истории</li>
+                                        <li class="recent-item-image-seting-list-item">В избраное</li>
+                                        <a href="#" class="recent-item-image-seting-list-item --underline">подробнее</a>
+                                    </ul>
+                                    <button class="recent-item-image-seting">
+                                        <i class="fa-ellipsis-vertical fa-solid "></i>
+                                    </button>
+                                    <a href="" class="recent-item-link"></a>
+                                </div>
+                            </div>
+                            <div class="recent-item-text">
+                                <h3 class="recent-item-name">унесённые призраками</h3>
+                                <h3 class="recent-item-description">все сезоны</h3>
+                            </div>
+                        </div>
+                        <div class="recent-item">
+                            <div class="recent-item-imgage" style="background-image:url(img/BlackClower.jpg);">
+                                <div class="recent-item-image-wrapper">
+                                    <ul class="recent-item-image-seting-list --of">
+                                        <li class="recent-item-image-seting-list-item">Удалить из истории</li>
+                                        <li class="recent-item-image-seting-list-item">В избраное</li>
+                                        <a href="#" class="recent-item-image-seting-list-item --underline">подробнее</a>
+                                    </ul>
+                                    <button class="recent-item-image-seting">
+                                        <i class="fa-ellipsis-vertical fa-solid "></i>
+                                    </button>
+                                    <a href="" class="recent-item-link"></a>
+                                </div>
+                            </div>
+                            <div class="recent-item-text">
+                                <h3 class="recent-item-name">Чёрный клевер</h3>
+                                <h3 class="recent-item-description">все сезоны.</h3>
+                            </div>
+                        </div>
+                        <div class="recent-item">
+                            <div class="recent-item-imgage" style="background-image:url(img/Вайолет.jpg);">
+                                <div class="recent-item-image-wrapper"> 
+                                    <ul class="recent-item-image-seting-list --of">
+                                        <li class="recent-item-image-seting-list-item">Удалить из истории</li>
+                                        <li class="recent-item-image-seting-list-item">В избраное</li>
+                                        <a href="#" class="recent-item-image-seting-list-item --underline">подробнее</a>
+                                    </ul>
+                                    <button class="recent-item-image-seting">
+                                        <i class="fa-ellipsis-vertical fa-solid "></i>
+                                    </button>
+                                    <a href="" class="recent-item-link"></a>
+                                </div>
+                            </div>
+                            <div class="recent-item-text">
+                                <h3 class="recent-item-name">Вайолет Эвергарден</h3>
+                                <h3 class="recent-item-description">Вечность и призрак пера</h3>
+                            </div>
+                        </div>
+                        <div class="recent-item">
+                            <div class="recent-item-imgage" style="background-image:url(img/jojo.jpg);">
+                                <div class="recent-item-image-wrapper">
+                                    <ul class="recent-item-image-seting-list --of">
+                                        <li class="recent-item-image-seting-list-item">Удалить из истории</li>
+                                        <li class="recent-item-image-seting-list-item">В избраное</li>
+                                        <a href="#" class="recent-item-image-seting-list-item --underline">подробнее</a>
+                                    </ul>
+                                    <button class="recent-item-image-seting">
+                                        <i class="fa-ellipsis-vertical fa-solid"></i>
+                                    </button>
+                                    <a href="" class="recent-item-link"></a>
+                                </div>
+                            </div>
+                            <div class="recent-item-text">
+                                <h3 class="recent-item-name">Невероятные приключения ДжоДжо</h3>
+                                <h3 class="recent-item-description">все сезоны</h3>
+                            </div>
+                        </div>
+                        <div class="recent-item">
+                            <div class="recent-item-imgage" style="background-image:url(img/Re_Zero_poster.webp);">
+                                <div class="recent-item-image-wrapper">
+                                    <ul class="recent-item-image-seting-list --of">
+                                        <li class="recent-item-image-seting-list-item">Удалить из истории</li>
+                                        <li class="recent-item-image-seting-list-item">В избраное</li>
+                                        <a href="#" class="recent-item-image-seting-list-item --underline">подробнее</a>
+                                    </ul>
+                                    <button class="recent-item-image-seting">
+                                        <i class="fa-ellipsis-vertical fa-solid "></i>
+                                    </button>
+                                    <a href="" class="recent-item-link"></a>
+                                </div>
+                            </div>
+                            <div class="recent-item-text">
+                                <h3 class="recent-item-name">Пособие по выживанию в альтернативном мире</h3>
+                                <h3 class="recent-item-description">все сезоны</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-favorite">
+                    <div class="favorite-header">
+                        <div class="favorite-header-content">
+                            <div class="favorite-header-profile">
+                                <a class="favorite-link" href="#">
+                                    <i class="fa-star fa-solid"></i>
+                                </a>
+                            </div>
+                            <div class="favorite-header-text">
+                                <h2 class="favorite-subtitle">Найдите для себя чтото новое </h2>
+                                <h1 class="favorite-title"><a class="favorite-title-link" href="#">Наши любимые жанры</a></h1>
+                            </div>
+                        </div>
+                        <div class="favorite-genresrow">
+                            <button class="favorite-genresrow-item  --active">
+                                Сёнэн
+                            </button>
+                            <button class="favorite-genresrow-item --red">
+                                Боевик
+                            </button>
+                            <button class="favorite-genresrow-item --yellow">
+                                Комедия
+                            </button>
+                            <button class="favorite-genresrow-item --blue">
+                                фантастика
+                            </button>
+                            <button class="favorite-genresrow-item --purpule">
+                                Романтика
+                            </button>
+                        </div>
+                        <div class="favorite-header-other">
+                            <div class="favorite-more"> 
+                                <a href="#" class="favorite-more-link">все жанры</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="favorite-wrapper">
+                        <div class="favorite-container">
+                            <div class="favorite-container-slide">
+                            <a href="" class="favorite-container-slide-item">
+                                <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                <div class="favorite-container-column-item-info">
+                                    <h1 class="favorite-container-column-item-info-title">
+                                        Милый во франксе
+                                    </h1>
+                                    <h2 class="favorite-container-column-item-info-subtitle">
+                                        1 сезон
+                                    </h2>
+                                </div>
+                            </a>
+                            <a href="" class="favorite-container-slide-item">
+                                <div class="favorite-container-column-item-img" style="background: url(/img/BlackClower.jpg); background-size: cover;"></div>
+                                <div class="favorite-container-column-item-info">
+                                    <h1 class="favorite-container-column-item-info-title">
+                                        Чёрный клевер
+                                    </h1>
+                                    <h2 class="favorite-container-column-item-info-subtitle">
+                                        1 сезон
+                                    </h2>
+                                </div>
+                            </a>
+                            <a href="" class="favorite-container-slide-item">
+                                <div class="favorite-container-column-item-img" style="background: url(/img/Re_Zero_poster.webp); background-size: cover;"></div>
+                                <div class="favorite-container-column-item-info">
+                                    <h1 class="favorite-container-column-item-info-title">
+                                        Пособие по выживанию в альтернативном мире
+                                    </h1>
+                                    <h2 class="favorite-container-column-item-info-subtitle">
+                                        1 сезон
+                                    </h2>
+                                </div>
+                            </a>
+                            <a href="" class="favorite-container-slide-item">
+                                <div class="favorite-container-column-item-img" style="background: url(/img/унесённыеПризраками.jpg); background-size: cover;"></div>
+                                <div class="favorite-container-column-item-info">
+                                    <h1 class="favorite-container-column-item-info-title">
+                                        унесённые призраками
+                                    </h1>
+                                    <h2 class="favorite-container-column-item-info-subtitle">
+                                        1 сезон
+                                    </h2>
+                                </div>
+                            </a>
+                            <a href="" class="favorite-container-slide-item">
+                                <div class="favorite-container-column-item-img" style="background: url(/img/Вайолет.jpg); background-size: cover; background-position: center;"></div>
+                                <div class="favorite-container-column-item-info">
+                                    <h1 class="favorite-container-column-item-info-title">
+                                        Вайолет Эвергарден
+                                    </h1>
+                                    <h2 class="favorite-container-column-item-info-subtitle">
+                                        Вечность и призрак пера
+                                    </h2>
+                                </div>
+                            </a>
+                            <a href="" class="favorite-container-slide-item">
+                                <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                <div class="favorite-container-column-item-info">
+                                    <h1 class="favorite-container-column-item-info-title">
+                                        Милый во франксе
+                                    </h1>
+                                    <h2 class="favorite-container-column-item-info-subtitle">
+                                        1 сезон
+                                    </h2>
+                                </div>
+                            </a>
+                            <a href="" class="favorite-container-slide-item">
+                                <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                <div class="favorite-container-column-item-info">
+                                    <h1 class="favorite-container-column-item-info-title">
+                                        Милый во франксе
+                                    </h1>
+                                    <h2 class="favorite-container-column-item-info-subtitle">
+                                        1 сезон
+                                    </h2>
+                                </div>
+                            </a>
+                            <a href="" class="favorite-container-slide-item">
+                                <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                <div class="favorite-container-column-item-info">
+                                    <h1 class="favorite-container-column-item-info-title">
+                                        Милый во франксе
+                                    </h1>
+                                    <h2 class="favorite-container-column-item-info-subtitle">
+                                        1 сезон
+                                    </h2>
+                                </div>
+                            </a>
+                            <a href="" class="favorite-container-slide-item">
+                                <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                <div class="favorite-container-column-item-info">
+                                    <h1 class="favorite-container-column-item-info-title">
+                                        Милый во франксе
+                                    </h1>
+                                    <h2 class="favorite-container-column-item-info-subtitle">
+                                        1 сезон
+                                    </h2>
+                                </div>
+                            </a>
+                            <a href="" class="favorite-container-slide-item">
+                                <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                <div class="favorite-container-column-item-info">
+                                    <h1 class="favorite-container-column-item-info-title">
+                                        Милый во франксе
+                                    </h1>
+                                    <h2 class="favorite-container-column-item-info-subtitle">
+                                        1 сезон
+                                    </h2>
+                                </div>
+                            </a>
+                            <a href="" class="favorite-container-slide-item">
+                                <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                <div class="favorite-container-column-item-info">
+                                    <h1 class="favorite-container-column-item-info-title">
+                                        Милый во франксе
+                                    </h1>
+                                    <h2 class="favorite-container-column-item-info-subtitle">
+                                        1 сезон
+                                    </h2>
+                                </div>
+                            </a>
+                            <a href="" class="favorite-container-slide-item">
+                                <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                <div class="favorite-container-column-item-info">
+                                    <h1 class="favorite-container-column-item-info-title">
+                                        Милый во франксе
+                                    </h1>
+                                    <h2 class="favorite-container-column-item-info-subtitle">
+                                        1 сезон
+                                    </h2>
+                                </div>
+                            </a>
+                            </div>
+                            <div class="favorite-container-slide">
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/BlackClower.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Чёрный клевер
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/Re_Zero_poster.webp); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Пособие по выживанию в альтернативном мире
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/унесённыеПризраками.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            унесённые призраками
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/Вайолет.jpg); background-size: cover; background-position: center;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Вайолет Эвергарден
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            Вечность и призрак пера
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="favorite-container-slide">
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/BlackClower.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Чёрный клевер
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/Re_Zero_poster.webp); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Пособие по выживанию в альтернативном мире
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/унесённыеПризраками.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            унесённые призраками
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/Вайолет.jpg); background-size: cover; background-position: center;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Вайолет Эвергарден
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            Вечность и призрак пера
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="favorite-container-slide">
+                                    <a href="" class="favorite-container-slide-item">
+                                        <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                        <div class="favorite-container-column-item-info">
+                                            <h1 class="favorite-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="favorite-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </a>
+                                    <a href="" class="favorite-container-slide-item">
+                                        <div class="favorite-container-column-item-img" style="background: url(/img/BlackClower.jpg); background-size: cover;"></div>
+                                        <div class="favorite-container-column-item-info">
+                                            <h1 class="favorite-container-column-item-info-title">
+                                                Чёрный клевер
+                                            </h1>
+                                            <h2 class="favorite-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </a>
+                                    <a href="" class="favorite-container-slide-item">
+                                        <div class="favorite-container-column-item-img" style="background: url(/img/Re_Zero_poster.webp); background-size: cover;"></div>
+                                        <div class="favorite-container-column-item-info">
+                                            <h1 class="favorite-container-column-item-info-title">
+                                                Пособие по выживанию в альтернативном мире
+                                            </h1>
+                                            <h2 class="favorite-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </a>
+                                    <a href="" class="favorite-container-slide-item">
+                                        <div class="favorite-container-column-item-img" style="background: url(/img/унесённыеПризраками.jpg); background-size: cover;"></div>
+                                        <div class="favorite-container-column-item-info">
+                                            <h1 class="favorite-container-column-item-info-title">
+                                                унесённые призраками
+                                            </h1>
+                                            <h2 class="favorite-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </a>
+                                    <a href="" class="favorite-container-slide-item">
+                                        <div class="favorite-container-column-item-img" style="background: url(/img/Вайолет.jpg); background-size: cover; background-position: center;"></div>
+                                        <div class="favorite-container-column-item-info">
+                                            <h1 class="favorite-container-column-item-info-title">
+                                                Вайолет Эвергарден
+                                            </h1>
+                                            <h2 class="favorite-container-column-item-info-subtitle">
+                                                Вечность и призрак пера
+                                            </h2>
+                                        </div>
+                                    </a>
+                                    <a href="" class="favorite-container-slide-item">
+                                        <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                        <div class="favorite-container-column-item-info">
+                                            <h1 class="favorite-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="favorite-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </a>
+                                    <a href="" class="favorite-container-slide-item">
+                                        <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                        <div class="favorite-container-column-item-info">
+                                            <h1 class="favorite-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="favorite-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </a>
+                                    <a href="" class="favorite-container-slide-item">
+                                        <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                        <div class="favorite-container-column-item-info">
+                                            <h1 class="favorite-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="favorite-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </a>
+                                    <a href="" class="favorite-container-slide-item">
+                                        <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                        <div class="favorite-container-column-item-info">
+                                            <h1 class="favorite-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="favorite-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </a>
+                                    <a href="" class="favorite-container-slide-item">
+                                        <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                        <div class="favorite-container-column-item-info">
+                                            <h1 class="favorite-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="favorite-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </a>
+                                    <a href="" class="favorite-container-slide-item">
+                                        <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                        <div class="favorite-container-column-item-info">
+                                            <h1 class="favorite-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="favorite-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </a>
+                                    <a href="" class="favorite-container-slide-item">
+                                        <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                        <div class="favorite-container-column-item-info">
+                                            <h1 class="favorite-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="favorite-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </a>
+                            </div>
+                            <div class="favorite-container-slide">
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/BlackClower.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Чёрный клевер
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/Re_Zero_poster.webp); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Пособие по выживанию в альтернативном мире
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/унесённыеПризраками.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            унесённые призраками
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/Вайолет.jpg); background-size: cover; background-position: center;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Вайолет Эвергарден
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            Вечность и призрак пера
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="" class="favorite-container-slide-item">
+                                    <div class="favorite-container-column-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                    <div class="favorite-container-column-item-info">
+                                        <h1 class="favorite-container-column-item-info-title">
+                                            Милый во франксе
+                                        </h1>
+                                        <h2 class="favorite-container-column-item-info-subtitle">
+                                            1 сезон
+                                        </h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-recomend">
+                    <div class="recomend-header">
+                            <div class="recomend-header-content">
+                                <div class="recomend-header-profile">
+                                    <a class="recomend-link" href="#">
+                                        <i class="fa-heart fa-solid"></i>
+                                    </a>
+                                </div>
+                                <div class="recomend-header-text">
+                                    <h1 class="recomend-title"><a class="recomend-title-link" href="#">Рекомендуем посмотреть</a></h1>
+                                    <h2 class="recomend-subtitle">А как нащёт этого...</h2>
+                                </div>
+                            </div>
+                            <div class="recomend-header-baner">
+                                <a href="" class="recomend-header-baner-item">
+                                <div class="recomend-header-baner-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                <div class="recomend-header-baner-item-info">
+                                    <h1 class="recomend-header-baner-item-title">
+                                        Милый во франксе
+                                    </h1>
+                                    <h2 class="recomend-header-baner-item-subtitle">
+                                           1 сезон
+                                    </h2>
+                                </div>
+                                </a>
+                                <a href="" class="recomend-header-baner-item">
+                                    <div class="recomend-header-baner-item-img" style="background: url(/img/jojo.jpg); background-size: cover;"></div>
+                                    <div class="recomend-header-baner-item-info">
+                                        <h1 class="recomend-header-baner-item-title">
+                                            Невероятные приключения ДжоДжо
+                                        </h1>
+                                        <h2 class="recomend-header-baner-item-subtitle">
+                                            все сезоны
+                                        </h2>
+                                    </div>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="main-popular">
+                    <div class="popular-header">
+                        <div class="popular-header-content">
+                            <div class="popular-header-profile">
+                                <a class="popular-link" href="#">
+                                    <i class="fa-solid fa-fire --redText"></i>
+                                </a>
+                            </div>
+                            <div class="popular-header-text">
+                                <h2 class="popular-subtitle --blueText">В топе</h2>
+                                <h1 class="popular-title"><a class="popular-title-link" href="#">Самые популярные аниме</a></h1>
+                            </div>  
+                        </div>
+                        <div class="popular-status-container">
+                            <div class="popular-status-container-button">
+                                неделя
+                            </div>
+                            <ul class="popular-status-container-list">
+                                    <button class="popular-status-container-list-item-button">
+                                        неделя
+                                    </button>
+                                    <button class="popular-status-container-list-item-button">
+                                        месяц
+                                    </button>
+                                    <button class="popular-status-container-list-item-button">
+                                        год
+                                    </button>
+                                    <button class="popular-status-container-list-item-button">
+                                        всё время
+                                    </button>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="popular-wrapper">
+                        <div class="popular-container">
+                            <div class="popular-container-slide">
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе1
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/BlackClower.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/Вайолет.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/heroAcademi.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/Re_Zero_poster.webp); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="popular-container-slide">
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе2
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="popular-container-slide">
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе3
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="popular-container-slide">
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе4
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="popular-container-slide-item">
+                                    <div class="popular-container-column-item-container" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;">
+                                        <div class="popular-container-column-item-info">
+                                            <h1 class="popular-container-column-item-info-title">
+                                                Милый во франксе
+                                            </h1>
+                                            <h2 class="popular-container-column-item-info-subtitle">
+                                                1 сезон
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-progress">
+                    <div class="progress-header">
+                        <div class="progress-header-content">
+                            <div class="progress-header-profile">
+                                <a class="progress-link" href="#">
+                                    <i class="fa-solid fa-trophy"></i>
+                                </a>
+                            </div>
+                            <div class="progress-header-text">
+                                <h2 class="progress-subtitle --yellowText">Буль • Буль • бУль • бУль</h2>
+                                <h1 class="progress-title"><a class="progress-title-link" href="#">Достижения</a></h1>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <div class="progress-content">
+                            <a href="#" class="progress-achive-item">
+                                <div class="progress-achive-item-container">
+                                    <div class="progress-achive-item-img" style="background: url(img/DarlingInTheFrancsMini.jpg); background-position: center; background-size: cover;">
+
+                                    </div>
+                                </div>
+                                <div class="progress-achive-item-info">
+                                    <h1 class="progress-achive-item-name">
+                                        Милый во франксе
+                                    </h1>
+                                </div>
+                            </a>
+                            <a href="#" class="progress-achive-item">
+                                <div class="progress-achive-item-container">
+                                    <div class="progress-achive-item-img" style="background: url(img/jojo.jpg); background-position: center; background-size: cover;">
+
+                                    </div>
+                                </div>
+                                <div class="progress-achive-item-info">
+                                    <h1 class="progress-achive-item-name">
+                                        Джо Джо
+                                    </h1>
+                                </div>
+                            </a>
+                            <a href="#" class="progress-achive-item">
+                                <div class="progress-achive-item-container">
+                                    <div class="progress-achive-item-img" style="background: url(img/Re_Zero_poster.webp); background-position: center; background-size: cover;">
+
+                                    </div>
+                                </div>
+                                <div class="progress-achive-item-info">
+                                    <h1 class="progress-achive-item-name">
+                                        Пособие по ...
+                                    </h1>
+                                </div>
+                            </a>
+                            <a href="#" class="progress-achive-item">
+                                <div class="progress-achive-item-container">
+                                    <div class="progress-achive-item-img" style="background: url(img/Вайолет.jpg); background-position: center; background-size: cover;">
+
+                                    </div>
+                                </div>
+                                <div class="progress-achive-item-info">
+                                    <h1 class="progress-achive-item-name">
+                                        Вайолет Эвергарден
+                                    </h1>
+                                </div>
+                            </a>
+                            <a href="#" class="progress-achive-item">
+                                <div class="progress-achive-item-container">
+                                    <div class="progress-achive-item-img" style="background: url(img/унесённыеПризраками.jpg); background-position: center; background-size: cover;">
+
+                                    </div>
+                                </div>
+                                <div class="progress-achive-item-info">
+                                    <h1 class="progress-achive-item-name">
+                                        унесённые призраками
+                                    </h1>
+                                </div>
+                            </a>
+                            <a href="#" class="progress-achive-item">
+                                <div class="progress-achive-item-container">
+                                    <div class="progress-achive-item-img" style="background: url(img/BlackClower.jpg); background-position: center; background-size: cover;">
+
+                                    </div>
+                                </div>
+                                <div class="progress-achive-item-info">
+                                    <h1 class="progress-achive-item-name">
+                                        Чёрный клевер
+                                    </h1>
+                                </div>
+                            </a>
+                            <a href="#" class="progress-achive-item">
+                                <div class="progress-achive-item-container">
+                                    <div class="progress-achive-item-img" style="background: url(img/heroAcademi.jpg); background-position: center; background-size: cover;">
+
+                                    </div>
+                                </div>
+                                <div class="progress-achive-item-info">
+                                    <h1 class="progress-achive-item-name">
+                                        моя геройская ...
+                                    </h1>
+                                </div>
+                            </a>
+                            <a href="#" class="progress-achive-item progress-achive-item-more">
+                                <div class="progress-achive-item-container more">
+                                    <div class="progress-achive-item-img more">
+                                    </div>
+                                </div>
+                                <div class="progress-achive-item-info">
+                                    <h1 class="progress-achive-item-name --underline">
+                                        все достижения
+                                    </h1>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-recomend">
+                    <div class="recomend-header">
+                            <div class="recomend-header-content">
+                                <div class="recomend-header-profile">
+                                    <a class="recomend-link" href="#">
+                                        <i class="fa-heart fa-solid"></i>
+                                    </a>
+                                </div>
+                                <div class="recomend-header-text">
+                                    <h1 class="recomend-title"><a class="recomend-title-link" href="#">Рекомендуем посмотреть</a></h1>
+                                    <h2 class="recomend-subtitle">А как нащёт этого...</h2>
+                                </div>
+                            </div>
+                            <div class="recomend-header-baner">
+                                <a href="" class="recomend-header-baner-item">
+                                <div class="recomend-header-baner-item-img" style="background: url(/img/DarlingInTheFrancsMini.jpg); background-size: cover;"></div>
+                                <div class="recomend-header-baner-item-info">
+                                    <h1 class="recomend-header-baner-item-title">
+                                        Милый во франксе
+                                    </h1>
+                                    <h2 class="recomend-header-baner-item-subtitle">
+                                           1 сезон
+                                    </h2>
+                                </div>
+                                </a>
+                                <a href="" class="recomend-header-baner-item">
+                                    <div class="recomend-header-baner-item-img" style="background: url(/img/jojo.jpg); background-size: cover;"></div>
+                                    <div class="recomend-header-baner-item-info">
+                                        <h1 class="recomend-header-baner-item-title">
+                                            Невероятные приключения ДжоДжо
+                                        </h1>
+                                        <h2 class="recomend-header-baner-item-subtitle">
+                                            все сезоны
+                                        </h2>
+                                    </div>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
